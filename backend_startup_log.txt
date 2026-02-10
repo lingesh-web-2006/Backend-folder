@@ -1,0 +1,35 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2026-02-07T11:28:49.231+05:30  INFO 15284 --- [           main] com.learnsphere.LearnSphereApplication   : Starting LearnSphereApplication v1.0.0 using Java 17.0.12 with PID 15284 (C:\Users\linge\OneDrive\Desktop\learnsphere\backend\target\learnsphere-backend-1.0.0.jar started by linge in C:\Users\linge\OneDrive\Desktop\learnsphere\backend)
+2026-02-07T11:28:49.237+05:30 DEBUG 15284 --- [           main] com.learnsphere.LearnSphereApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
+2026-02-07T11:28:49.238+05:30  INFO 15284 --- [           main] com.learnsphere.LearnSphereApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-02-07T11:28:51.616+05:30  INFO 15284 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-07T11:28:51.804+05:30  INFO 15284 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 167 ms. Found 9 JPA repository interfaces.
+2026-02-07T11:28:54.047+05:30  INFO 15284 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-02-07T11:28:54.087+05:30  INFO 15284 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-07T11:28:54.089+05:30  INFO 15284 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2026-02-07T11:28:54.370+05:30  INFO 15284 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-02-07T11:28:54.382+05:30  INFO 15284 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4984 ms
+2026-02-07T11:28:54.457+05:30  INFO 15284 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-07T11:28:55.079+05:30  INFO 15284 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:learnsphere user=SA
+2026-02-07T11:28:55.089+05:30  INFO 15284 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-07T11:28:55.125+05:30  INFO 15284 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:learnsphere'
+2026-02-07T11:28:55.388+05:30 DEBUG 15284 --- [           main] c.l.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2026-02-07T11:28:55.747+05:30  INFO 15284 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-07T11:28:55.933+05:30  INFO 15284 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2026-02-07T11:28:55.941+05:30  INFO 15284 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2026-02-07T11:28:56.573+05:30  INFO 15284 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-07T11:28:56.643+05:30  WARN 15284 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-07T11:28:59.411+05:30  INFO 15284 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-07T11:28:59.598+05:30  INFO 15284 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-07T11:29:00.908+05:30  WARN 15284 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-07T11:29:02.199+05:30  INFO 15284 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65bb6275, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64da6cbd, org.springframework.security.web.context.SecurityContextHolderFilter@3fa7df1, org.springframework.security.web.header.HeaderWriterFilter@294aba23, org.springframework.web.filter.CorsFilter@72a2312e, org.springframework.security.web.authentication.logout.LogoutFilter@91f565d, com.learnsphere.security.JwtAuthenticationFilter@6fff253c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52227eb2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a146b11, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47c7a9e5, org.springframework.security.web.session.SessionManagementFilter@58a2d9f9, org.springframework.security.web.access.ExceptionTranslationFilter@642a16aa, org.springframework.security.web.access.intercept.AuthorizationFilter@1b01a0d]
+2026-02-07T11:29:03.397+05:30  INFO 15284 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2026-02-07T11:29:03.450+05:30  INFO 15284 --- [           main] com.learnsphere.LearnSphereApplication   : Started LearnSphereApplication in 15.328 seconds (process running for 16.867)

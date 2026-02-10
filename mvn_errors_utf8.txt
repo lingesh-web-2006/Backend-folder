@@ -1,0 +1,597 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.learnsphere:learnsphere-backend >-----------------
+[INFO] Building learnsphere-backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ learnsphere-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ learnsphere-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 48 source files with javac [debug release 11] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/dto/WorkflowResponse.java:[22,1] duplicate class: com.learnsphere.dto.WorkflowStepResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[41,44] cannot find symbol
+  symbol:   method getSkills()
+  location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[42,23] cannot find symbol
+  symbol:   method getSkills()
+  location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[47,30] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.DomainResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[48,27] cannot find symbol
+  symbol:   method getId()
+  location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[49,29] cannot find symbol
+  symbol:   method getName()
+  location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[50,36] cannot find symbol
+  symbol:   method getDescription()
+  location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[51,29] cannot find symbol
+  symbol:   method getIcon()
+  location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[52,35] cannot find symbol
+  symbol:   method getDifficulty()
+  location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[53,35] cannot find symbol
+  symbol:   method getSkillCount()
+  location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[54,34] cannot find symbol
+  symbol:   method getTopSkills()
+  location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[60,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.SkillResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[61,26] cannot find symbol
+  symbol:   method getId()
+  location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[62,28] cannot find symbol
+  symbol:   method getName()
+  location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[63,35] cannot find symbol
+  symbol:   method getDescription()
+  location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[64,29] cannot find symbol
+  symbol:   method getLevel()
+  location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[65,34] cannot find symbol
+  symbol:   method getImportance()
+  location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[41,32] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.WorkflowResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[42,35] cannot find symbol
+  symbol:   method getId()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[43,37] cannot find symbol
+  symbol:   method getName()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[45,58] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.WorkflowStepResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[46,41] cannot find symbol
+  symbol:   method getId()
+  location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[47,43] cannot find symbol
+  symbol:   method getName()
+  location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[48,50] cannot find symbol
+  symbol:   method getDescription()
+  location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[49,48] cannot find symbol
+  symbol:   method getStepOrder()
+  location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[50,48] cannot find symbol
+  symbol:   method getCompleted()
+  location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[57,31] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.ProjectResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[58,28] cannot find symbol
+  symbol:   method getId()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[59,30] cannot find symbol
+  symbol:   method getName()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[60,37] cannot find symbol
+  symbol:   method getDescription()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[61,30] cannot find symbol
+  symbol:   method getIcon()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[62,36] cannot find symbol
+  symbol:   method getDifficulty()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[63,40] cannot find symbol
+  symbol:   method getEstimatedHours()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[64,37] cannot find symbol
+  symbol:   method getStarterHtml()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[65,36] cannot find symbol
+  symbol:   method getStarterCss()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[66,35] cannot find symbol
+  symbol:   method getStarterJs()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[67,35] cannot find symbol
+  symbol:   method getResources()
+  location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[32,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.learnsphere.dto.SignupRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[36,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[37,30] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.learnsphere.dto.SignupRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[38,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.learnsphere.dto.SignupRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[39,57] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.learnsphere.dto.SignupRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[47,45] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[52,71] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[54,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.AuthResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[63,32] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.learnsphere.dto.LoginRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[64,32] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.learnsphere.dto.LoginRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[69,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.learnsphere.dto.LoginRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[72,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.AuthResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[79,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.UserResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[80,25] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[81,27] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[82,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[83,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[28,55] cannot find symbol
+  symbol:   method getTotalSkillsLearned()
+  location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[29,59] cannot find symbol
+  symbol:   method getTotalProjectsCompleted()
+  location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[30,58] cannot find symbol
+  symbol:   method getTotalQuizzesCompleted()
+  location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[31,50] cannot find symbol
+  symbol:   method getCurrentStreak()
+  location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[32,48] cannot find symbol
+  symbol:   method getTotalPoints()
+  location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[33,17] cannot find symbol
+  symbol:   method setLastActivityDate(long)
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[45,52] cannot find symbol
+  symbol:   method getTotalProjectsCompleted()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[46,41] cannot find symbol
+  symbol:   method getTotalPoints()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[47,17] cannot find symbol
+  symbol:   method setLastActivityDate(long)
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[58,55] cannot find symbol
+  symbol:   method getTotalQuizzesCompleted()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[59,45] cannot find symbol
+  symbol:   method getTotalPoints()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[61,17] cannot find symbol
+  symbol:   method setLastActivityDate(long)
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[67,36] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[68,33] cannot find symbol
+  symbol:   method getUser()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[69,45] cannot find symbol
+  symbol:   method getTotalSkillsLearned()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[70,49] cannot find symbol
+  symbol:   method getTotalProjectsCompleted()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[71,48] cannot find symbol
+  symbol:   method getTotalQuizzesCompleted()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[72,40] cannot find symbol
+  symbol:   method getCurrentStreak()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[73,38] cannot find symbol
+  symbol:   method getTotalPoints()
+  location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[41,40] cannot find symbol
+  symbol:   method getAnswers()
+  location: variable request of type com.learnsphere.dto.QuizSubmitRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[41,66] cannot find symbol
+  symbol:   method getId()
+  location: variable question of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[42,65] cannot find symbol
+  symbol:   method getCorrectAnswer()
+  location: variable question of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[59,72] cannot find symbol
+  symbol:   method getId()
+  location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[61,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.QuizResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[62,25] cannot find symbol
+  symbol:   method getId()
+  location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[63,28] cannot find symbol
+  symbol:   method getTitle()
+  location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[64,34] cannot find symbol
+  symbol:   method getDescription()
+  location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[65,36] cannot find symbol
+  symbol:   method getQuestionCount()
+  location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[66,36] cannot find symbol
+  symbol:   method getEstimatedTime()
+  location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[68,51] cannot find symbol
+  symbol:   method builder()
+  location: class com.learnsphere.dto.QuestionResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[69,38] cannot find symbol
+  symbol:   method getId()
+  location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[70,44] cannot find symbol
+  symbol:   method getQuestion()
+  location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[71,43] cannot find symbol
+  symbol:   method getOptions()
+  location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[72,49] cannot find symbol
+  symbol:   method getCorrectAnswer()
+  location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[73,40] cannot find symbol
+  symbol:   method getHint()
+  location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/controller/AchievementController.java:[35,20] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/controller/UserProgressController.java:[41,20] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/config/SecurityConfig.java:[44,43] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/config/SecurityConfig.java:[45,39] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/config/SecurityConfig.java:[46,36] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/config/SecurityConfig.java:[48,29] incompatible types: bad return type in lambda expression
+    no instance(s) of type variable(s) X exist so that java.lang.Object conforms to org.springframework.security.core.userdetails.UserDetails
+[INFO] 95 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.891 s
+[INFO] Finished at: 2026-02-07T11:06:21+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project learnsphere-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/dto/WorkflowResponse.java:[22,1] duplicate class: com.learnsphere.dto.WorkflowStepResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[41,44] cannot find symbol
+[ERROR]   symbol:   method getSkills()
+[ERROR]   location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[42,23] cannot find symbol
+[ERROR]   symbol:   method getSkills()
+[ERROR]   location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[47,30] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.DomainResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[48,27] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[49,29] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[50,36] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[51,29] cannot find symbol
+[ERROR]   symbol:   method getIcon()
+[ERROR]   location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[52,35] cannot find symbol
+[ERROR]   symbol:   method getDifficulty()
+[ERROR]   location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[53,35] cannot find symbol
+[ERROR]   symbol:   method getSkillCount()
+[ERROR]   location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[54,34] cannot find symbol
+[ERROR]   symbol:   method getTopSkills()
+[ERROR]   location: variable domain of type com.learnsphere.entity.Domain
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[60,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.SkillResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[61,26] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[62,28] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[63,35] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[64,29] cannot find symbol
+[ERROR]   symbol:   method getLevel()
+[ERROR]   location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/DomainService.java:[65,34] cannot find symbol
+[ERROR]   symbol:   method getImportance()
+[ERROR]   location: variable skill of type com.learnsphere.entity.Skill
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[41,32] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.WorkflowResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[42,35] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[43,37] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[45,58] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.WorkflowStepResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[46,41] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[47,43] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[48,50] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[49,48] cannot find symbol
+[ERROR]   symbol:   method getStepOrder()
+[ERROR]   location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[50,48] cannot find symbol
+[ERROR]   symbol:   method getCompleted()
+[ERROR]   location: variable step of type com.learnsphere.entity.WorkflowStep
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[57,31] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.ProjectResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[58,28] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[59,30] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[60,37] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[61,30] cannot find symbol
+[ERROR]   symbol:   method getIcon()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[62,36] cannot find symbol
+[ERROR]   symbol:   method getDifficulty()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[63,40] cannot find symbol
+[ERROR]   symbol:   method getEstimatedHours()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[64,37] cannot find symbol
+[ERROR]   symbol:   method getStarterHtml()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[65,36] cannot find symbol
+[ERROR]   symbol:   method getStarterCss()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[66,35] cannot find symbol
+[ERROR]   symbol:   method getStarterJs()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/ProjectService.java:[67,35] cannot find symbol
+[ERROR]   symbol:   method getResources()
+[ERROR]   location: variable project of type com.learnsphere.entity.Project
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[32,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.learnsphere.dto.SignupRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[36,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[37,30] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.learnsphere.dto.SignupRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[38,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.learnsphere.dto.SignupRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[39,57] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.learnsphere.dto.SignupRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[47,45] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[52,71] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[54,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.AuthResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[63,32] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.learnsphere.dto.LoginRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[64,32] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.learnsphere.dto.LoginRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[69,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.learnsphere.dto.LoginRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[72,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.AuthResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[79,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.UserResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[80,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[81,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[82,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/AuthService.java:[83,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[28,55] cannot find symbol
+[ERROR]   symbol:   method getTotalSkillsLearned()
+[ERROR]   location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[29,59] cannot find symbol
+[ERROR]   symbol:   method getTotalProjectsCompleted()
+[ERROR]   location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[30,58] cannot find symbol
+[ERROR]   symbol:   method getTotalQuizzesCompleted()
+[ERROR]   location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[31,50] cannot find symbol
+[ERROR]   symbol:   method getCurrentStreak()
+[ERROR]   location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[32,48] cannot find symbol
+[ERROR]   symbol:   method getTotalPoints()
+[ERROR]   location: variable progressRequest of type com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[33,17] cannot find symbol
+[ERROR]   symbol:   method setLastActivityDate(long)
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[45,52] cannot find symbol
+[ERROR]   symbol:   method getTotalProjectsCompleted()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[46,41] cannot find symbol
+[ERROR]   symbol:   method getTotalPoints()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[47,17] cannot find symbol
+[ERROR]   symbol:   method setLastActivityDate(long)
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[58,55] cannot find symbol
+[ERROR]   symbol:   method getTotalQuizzesCompleted()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[59,45] cannot find symbol
+[ERROR]   symbol:   method getTotalPoints()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[61,17] cannot find symbol
+[ERROR]   symbol:   method setLastActivityDate(long)
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[67,36] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.UserProgressResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[68,33] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[69,45] cannot find symbol
+[ERROR]   symbol:   method getTotalSkillsLearned()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[70,49] cannot find symbol
+[ERROR]   symbol:   method getTotalProjectsCompleted()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[71,48] cannot find symbol
+[ERROR]   symbol:   method getTotalQuizzesCompleted()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[72,40] cannot find symbol
+[ERROR]   symbol:   method getCurrentStreak()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/UserProgressService.java:[73,38] cannot find symbol
+[ERROR]   symbol:   method getTotalPoints()
+[ERROR]   location: variable progress of type com.learnsphere.entity.UserProgress
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[41,40] cannot find symbol
+[ERROR]   symbol:   method getAnswers()
+[ERROR]   location: variable request of type com.learnsphere.dto.QuizSubmitRequest
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[41,66] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable question of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[42,65] cannot find symbol
+[ERROR]   symbol:   method getCorrectAnswer()
+[ERROR]   location: variable question of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[59,72] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[61,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.QuizResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[62,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[63,28] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[64,34] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[65,36] cannot find symbol
+[ERROR]   symbol:   method getQuestionCount()
+[ERROR]   location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[66,36] cannot find symbol
+[ERROR]   symbol:   method getEstimatedTime()
+[ERROR]   location: variable quiz of type com.learnsphere.entity.Quiz
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[68,51] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.learnsphere.dto.QuestionResponse
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[69,38] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[70,44] cannot find symbol
+[ERROR]   symbol:   method getQuestion()
+[ERROR]   location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[71,43] cannot find symbol
+[ERROR]   symbol:   method getOptions()
+[ERROR]   location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[72,49] cannot find symbol
+[ERROR]   symbol:   method getCorrectAnswer()
+[ERROR]   location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/service/QuizService.java:[73,40] cannot find symbol
+[ERROR]   symbol:   method getHint()
+[ERROR]   location: variable q of type com.learnsphere.entity.Question
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/controller/AchievementController.java:[35,20] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/controller/UserProgressController.java:[41,20] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/config/SecurityConfig.java:[44,43] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/config/SecurityConfig.java:[45,39] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/config/SecurityConfig.java:[46,36] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.learnsphere.entity.User
+[ERROR] /C:/Users/linge/OneDrive/Desktop/learnsphere/backend/src/main/java/com/learnsphere/config/SecurityConfig.java:[48,29] incompatible types: bad return type in lambda expression
+[ERROR]     no instance(s) of type variable(s) X exist so that java.lang.Object conforms to org.springframework.security.core.userdetails.UserDetails
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
